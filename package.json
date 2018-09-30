@@ -1,0 +1,24 @@
+{
+  "name": "gulp-hash-replace",
+  "version": "0.0.1",
+  "description": "use with gulp-plugin like gulp-hash and replace hashes in other file ,such as .html",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "author": "chenille",
+  "license": "ISC",
+  "keywords":["gulp","gulp-plugin","replace","hash-replace"],
+  "dependencies": {
+    "gulp-replace": "^1.0.0",
+    "plugin-error": "^1.0.1",
+    "replacestream": "^4.0.3",
+    "through2": "^2.0.3",
+    "vinyl": "^2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-debug": "^4.0.0",
+    "gulp-hash": "^4.2.2"
+  }
+}
